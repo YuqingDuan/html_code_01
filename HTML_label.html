@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>Document</title>
+	<title>Lable</title>
 </head>
 <body>
 	<!-- Ctrl + / 注释 -->
@@ -54,9 +54,20 @@
 
 	<!-- 工作中推荐使用<strong></strong>, <em></em>, <del></del>, <ins></ins>, 因为他们更加语义化, 便于浏览器渲染引擎解析. -->
 
-	<!-- <img src="" alt="" />图片标签-->
+	<!-- <img src="" alt="" />图片标签 -->
 	<!-- <img src="hwz1.jpg" alt="houweizhai" /> -->
 	<!-- src图片路径, alt图片无法正常显示的时候显示的文字, title鼠标放在图片上显示的文字, width图片宽度, height图片高度 -->
-	<img src="hwz.jpg" alt="houweizhai" title="hometown" width="600" height="400" />
+	<img src="hwz.jpg" alt="houweizhai" title="hometown" width="600" height="400" /><br />
+
+	<!-- 图片的路径问题 -->
+	<!-- 如果html文件和图片在同级目录, src直接写图片名; 如果html文件和图片不在同级目录建议写绝对路径. -->
+	<!-- ../跳到上一级目录; /进入下一级目录 相对路径适合于工作中(软编码)-->
+	<img src="E:/pics/hwz01.jpg" alt="houweizhai" title="hometown" width="300" height="200" /><br />
+	<!-- 网络上图片的结对路径 https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg -->
+	<img src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" alt="onlineCourse" title="udemy" width="300" height="200" /><br />
+
+	<!-- <a href=""></a>超链接标签 href要跳转到的页面, title鼠标放在超链接上显示的文字, target新页面打开的方式, 默认值是"_self" -->
+	<a href="https://www.udemy.com/" title="To Udemy" target="_self">这是超链接标签</a><br />
+	<a href="https://www.udemy.com/" title="To Udemy" target="_blank">这是超链接标签</a><br />
 </body>
 </html>
