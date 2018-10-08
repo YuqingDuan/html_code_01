@@ -1,6 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
 <head>
+	<!-- 让所有的超链接都在新窗口打开, 超链接的优化写法 -->
+	<base target="_blank" />
+
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>Spring</title>
 </head>
@@ -9,6 +13,21 @@
 	<a href="Summer.html">summer</a>
 	<a href="Autumn.html">autumn</a>
 	<a href="Winter.html">winter</a><br />
-	<img src="images/chun.jpg" alt="" />
+	<img src="images/chun.jpg" alt="" /><br />
+
+	<!-- 空链会连接到当前页面本身URL后面加了# -->
+	<a href="#">这是空链</a><br />
+
+	<!-- 网页压缩文件下载(不推荐用) -->
+	<a href="zipfile.rar">这是压缩文件</a><br />
+
+	<!-- HTML中特殊符号的使用 -->
+	空&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp格 <!-- 空格 -->
+	&lt <!-- 小于号 -->
+	&gt <!-- 大于号 -->
+	&amp <!-- 和号 -->
+	&copy <!-- 版权 -->
+	&reg <!-- 注册商标 -->
+	&deg <!-- 摄氏度 -->
 </body>
 </html>
